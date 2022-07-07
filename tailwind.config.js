@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Barlow Semi Condensed', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [],
