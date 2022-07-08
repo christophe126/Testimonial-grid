@@ -12,7 +12,15 @@ module.exports = {
       fontFamily: {
         sans: ['Barlow Semi Condensed', 'sans-serif']
       },
+      lineClamp: {
+        7: '7',
+        8: '8',
+        9: '9',
+        10: '10',
+        15: '15',
+        23: '23',
+      }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 }
